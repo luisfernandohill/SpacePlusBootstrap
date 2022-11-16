@@ -6,8 +6,12 @@
     font-family: 'Lato', 'Courier New', Courier, sans-serif;
 }
 
+/*Mobile*/
 @media screen and (max-width: 576px){
     /*Menu*/
+    .menu__desktop{
+        display: none;
+    }
     .menu{
         display: flex;
         flex-direction: row;
@@ -31,43 +35,78 @@
     .menu__list .menu__item a{
         color: #F2AF2D;
         text-decoration: none;
-        text-decoration: none;
         font-weight: bold;
     }
 
-    /*Viagens*/
+
 
 }
 
+/*Tablet*/
+@media screen and (min-width: 577px) and (max-width: 991px){
+    /*Menu*/
+    .menu{
+        display: none;
+    }
+    .menu__desktop{
+        background-color: #000E2D;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu__desktop .menu__desktop__image{
+        width: 20%;
+    }
+    .menu__desktop .menu__desktop__list{
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+    .menu__desktop__list .menu__desktop__item{
+        list-style: none;
+        font-size: 1.5rem;
+        text-align: end;
+        padding-right: 1rem;
+    }
+    .menu__desktop__list .menu__desktop__item a{
+        color: #F2AF2D;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+/*Desktop*/
 @media screen and (min-width: 992px){
     /*Menu*/
     .menu{
         display: none;
     }
-
-
-    /*Viagens*/
-    .boxPlaneta {
-        width: 45vh;
-        height: 35vh;
-        background-color: #AFCCDA;
-        display: inline-block;
-        vertical-align: top;
+    .menu__desktop{
+        background-color: #000E2D;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
-    
-    .boxPlaneta h4 {
-        font-size: 1.75rem;
-        font-weight: bold;
-        text-align: center;
-        padding: 1.5rem 0rem 1rem 0rem;
-        color: #000E2D
+    .menu__desktop .menu__desktop__image{
+        width: 20%;
     }
-    
-    .boxPlaneta p {
+    .menu__desktop .menu__desktop__list{
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+    .menu__desktop__list .menu__desktop__item{
+        list-style: none;
         font-size: 1.5rem;
-        font-weight: bold;
-        text-align: justify;
-        color: #000E2D;
-        padding: 1rem 1rem 0rem 1rem;
+        text-align: end;
+        padding-right: 1rem;
     }
+    .menu__desktop__list .menu__desktop__item a{
+        color: #F2AF2D;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
 }
