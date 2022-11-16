@@ -1,0 +1,42 @@
+/*Geral*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', 'Courier New', Courier, sans-serif;
+}
+
+@media screen and (max-width: 576px){
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 20px;
+        background-color: #000E2D;
+    }
+    .menu .menu__image{
+        width: 15%;
+    }
+    .menu__list{
+        background-color: #000E2D;
+        padding: 10px;
+
+    }
+    .menu__list .menu__item{
+        list-style: none;
+        font-size: 16px;
+        text-align: end;
+    }
+    .menu__list .menu__item a{
+        color: #F2AF2D;
+        text-decoration: none;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .menu{
+        display: none;
+    }
+}
