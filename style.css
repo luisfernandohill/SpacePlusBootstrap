@@ -7,34 +7,60 @@
 }
 
 /*Mobile*/
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) {
+
     /*Menu*/
-    .menu__desktop{
+    .menu__desktop {
         display: none;
     }
-    .menu{
+
+    .menu {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         padding-left: 20px;
         background-color: #000E2D;
     }
-    .menu .menu__image{
+
+    .menu .menu__image {
         width: 15%;
     }
-    .menu__list{
+
+    .menu__list {
         background-color: #000E2D;
         padding: 10px;
 
     }
-    .menu__list .menu__item{
+
+    .menu__list .menu__item {
         list-style: none;
         font-size: 16px;
         text-align: end;
     }
-    .menu__list .menu__item a{
+
+    .menu__list .menu__item a {
         color: #F2AF2D;
         text-decoration: none;
+        font-weight: bold;
+    }
+
+    /*Rodapé*/
+    #rodape {
+        background-color: #000E2D;
+        text-align: left;
+        padding: 0.1rem 0.5rem 0.5rem 0.5rem;
+    }
+
+    #rodape p {
+        color: aliceblue;
+        line-height: 1;
+        font-weight: normal;
+        font-size: 90%;
+    }
+
+    #rodape p a {
+        text-decoration: none;
+        color: aliceblue;
         font-weight: bold;
     }
 
@@ -43,69 +69,121 @@
 }
 
 /*Tablet*/
-@media screen and (min-width: 577px) and (max-width: 991px){
+@media screen and (min-width: 577px) and (max-width: 991px) {
+
     /*Menu*/
-    .menu{
+    .menu {
         display: none;
     }
-    .menu__desktop{
+
+    .menu__desktop {
         background-color: #000E2D;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
     }
-    .menu__desktop .menu__desktop__image{
+
+    .menu__desktop .menu__desktop__image {
         width: 20%;
     }
-    .menu__desktop .menu__desktop__list{
+
+    .menu__desktop .menu__desktop__list {
         list-style: none;
         display: flex;
         gap: 20px;
     }
-    .menu__desktop__list .menu__desktop__item{
+
+    .menu__desktop__list .menu__desktop__item {
         list-style: none;
         font-size: 1.5rem;
         text-align: end;
         padding-right: 1rem;
     }
-    .menu__desktop__list .menu__desktop__item a{
+
+    .menu__desktop__list .menu__desktop__item a {
         color: #F2AF2D;
         text-decoration: none;
+        font-weight: bold;
+    }
+
+    /*Rodapé*/
+    #rodape {
+        background-color: #000E2D;
+        text-align: left;
+        padding: 0.1rem 0.5rem 0.5rem 0.5rem;
+    }
+
+    #rodape p {
+        color: aliceblue;
+        line-height: 1;
+        font-weight: normal;
+        font-size: 90%;
+    }
+
+    #rodape p a {
+        text-decoration: none;
+        color: aliceblue;
         font-weight: bold;
     }
 }
 
 /*Desktop*/
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
+
     /*Menu*/
-    .menu{
+    .menu {
         display: none;
     }
-    .menu__desktop{
+
+    .menu__desktop {
         background-color: #000E2D;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
     }
-    .menu__desktop .menu__desktop__image{
+
+    .menu__desktop .menu__desktop__image {
         width: 20%;
     }
-    .menu__desktop .menu__desktop__list{
+
+    .menu__desktop .menu__desktop__list {
         list-style: none;
         display: flex;
         gap: 20px;
     }
-    .menu__desktop__list .menu__desktop__item{
+
+    .menu__desktop__list .menu__desktop__item {
         list-style: none;
         font-size: 1.5rem;
         text-align: end;
         padding-right: 1rem;
     }
-    .menu__desktop__list .menu__desktop__item a{
+
+    .menu__desktop__list .menu__desktop__item a {
         color: #F2AF2D;
         text-decoration: none;
+        font-weight: bold;
+    }
+
+    /*Rodapé*/
+    #rodape {
+        background-color: #000E2D;
+        text-align: left;
+        padding: 0.1rem 0.5rem 0.5rem 0.5rem;
+    }
+
+    #rodape p {
+        color: aliceblue;
+        line-height: 2;
+        font-weight: normal;
+        font-size: 90%;
+    }
+
+    #rodape p a {
+        text-decoration: none;
+        color: aliceblue;
         font-weight: bold;
     }
 
