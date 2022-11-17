@@ -64,7 +64,7 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        padding: 6.5rem 2rem;
+        padding: 2rem 2rem;
     }
 
     #home h3 {
@@ -92,12 +92,11 @@ body {
     /* Viagens */
     #viagens {
         margin-bottom: 9rem;
+        padding: 2rem 2rem;
     }
 
     #viagens .titulos {
         color: #000E2D;
-        padding-top: 2rem;
-        padding-left: 2rem;
         padding-bottom: 3rem;
     }
 
@@ -144,7 +143,7 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        padding: 6.5rem 2rem;
+        padding: 2rem 2rem;
     }
 
     #novidades h3 {
@@ -245,7 +244,7 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        padding: 6.5rem 2rem;
+        padding: 2rem 2rem;
     }
 
     #home h3 {
@@ -272,13 +271,12 @@ body {
 
     /* Viagens */
     #viagens {
-        margin-top: 3rem;
         margin-bottom: 9rem;
+        padding: 2rem 2rem;
     }
 
     #viagens .titulos {
         color: #000E2D;
-        padding-left: 2rem;
         padding-bottom: 3rem;
     }
 
@@ -325,7 +323,7 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        padding: 6.5rem 2rem;
+        padding: 2rem 2rem;
     }
 
     #novidades h3 {
@@ -417,7 +415,7 @@ body {
         color: #ffffff;
         font-size: 2.5rem;
         font-weight: bold;
-        padding-top: 4rem;
+        padding-top: 1rem;
     }
 
     /*Home*/
@@ -428,7 +426,7 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        padding: 3rem 2rem;
+        padding: 2rem 2rem;
     }
 
     #home h3 {
@@ -455,11 +453,11 @@ body {
     /* Viagens */
     #viagens {
         margin-bottom: 9rem;
+        padding: 2rem 2rem;
     }
 
     #viagens .titulos {
         color: #000E2D;
-        padding-left: 2rem;
         padding-bottom: 3rem;
     }
 
@@ -506,7 +504,7 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        padding: 3rem 2rem;
+        padding: 2rem 2rem;
     }
 
     #novidades h3 {
