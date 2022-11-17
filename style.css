@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: 'Lato', 'Courier New', Courier, sans-serif;
 }
+
 body {
     overflow-x: hidden;
     background-color: #CCCCCC;
@@ -79,6 +80,39 @@ body {
     }
 
     #home div {
+        font-size: 1.1rem;
+        color: #ffffff;
+        text-align: justify;
+        background-color: rgba(204, 204, 204, 0.4);
+        padding: 1rem 1.5rem 1.5rem 0rem;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    /* Novidades */
+    #novidades {
+        background-image: url("./Imagens/novidades.jpg");
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 6.5rem 2rem;
+    }
+
+    #novidades h3 {
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        color: #ffffff;
+        text-align: center;
+        background-color: rgba(204, 204, 204, 0.4);
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 5rem;
+        margin-bottom: 0rem;
+    }
+
+    #novidades div {
         font-size: 1.1rem;
         color: #ffffff;
         text-align: justify;
@@ -189,6 +223,38 @@ body {
         margin-right: 2%;
     }
 
+    /* Novidades */
+    #novidades {
+        background-image: url("./Imagens/novidades.jpg");
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 6.5rem 2rem;
+    }
+
+    #novidades h3 {
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        color: #ffffff;
+        text-align: center;
+        background-color: rgba(204, 204, 204, 0.4);
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 5rem;
+        margin-bottom: 0rem;
+    }
+
+    #novidades div {
+        font-size: 1.1rem;
+        color: #ffffff;
+        text-align: justify;
+        background-color: rgba(204, 204, 204, 0.4);
+        padding: 1rem 1.5rem 1.5rem 0rem;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 
     /*Rodapé*/
     #rodape {
@@ -293,15 +359,16 @@ body {
     }
 
     /* Viagens */
-    .carousel_align{
+    .carousel_align {
         display: flex;
         justify-content: center;
     }
+
     .imgPlaneta {
-        width:60vh !important; 
+        width: 60vh !important;
         height: 40vh !important;
     }
-    
+
     .boxPlaneta {
         width: 90vh;
         height: 40vh;
@@ -309,7 +376,7 @@ body {
         display: inline-block;
         vertical-align: top;
     }
-    
+
     .boxPlaneta h4 {
         font-size: 1.5rem;
         font-weight: bold;
@@ -317,14 +384,51 @@ body {
         padding: 1.5rem 0rem 1rem 0rem;
         color: #000E2D
     }
-    
+
     .boxPlaneta p {
         font-size: 1.2rem;
         font-weight: bold;
         text-align: justify;
         color: #000E2D;
         padding: 1rem 1rem 2rem 1rem;
-       
+
+    }
+
+    /*Novidades*/
+    #novidades {
+        background-image: url("./Imagens/novidades.jpg");
+        height: 92vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 3rem 2rem;
+    }
+
+    #novidades h3 {
+        font-size: 2rem;
+        color: #ffffff;
+        text-align: left;
+        background-color: rgba(204, 204, 204, 0.4);
+        padding-top: 1rem;
+        padding-left: 1.5rem;
+        margin-right: 50%;
+        margin-top: 10rem;
+        margin-bottom: 0rem;
+    }
+
+    #novidades div {
+        font-size: 1.3rem;
+        color: #ffffff;
+        text-align: justify;
+        background-color: rgba(204, 204, 204, 0.4);
+        padding: 1rem 1.5rem 1.5rem 1.5rem;
+        margin-right: 50%;
+    }
+
+    #novidades .buttom {
+        padding-left: px;
+        color: #F2AF2D;
     }
 
     /*Rodapé*/
