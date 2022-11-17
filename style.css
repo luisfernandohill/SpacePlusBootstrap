@@ -44,6 +44,47 @@
         font-weight: bold;
     }
 
+    /* Titulos das Páginas */
+    .titulos {
+        color: #ffffff;
+        font-size: 2rem;
+        font-weight: bold;
+        padding-top: 0rem;
+    }
+
+    /* Home */
+    #home {
+        background-image: url("./Imagens/espaço.jpg");
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 6.5rem 2rem;
+    }
+
+    #home h3 {
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        color: #ffffff;
+        text-align: center;
+        background-color: rgba(204, 204, 204, 0.4);
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 5rem;
+        margin-bottom: 0rem;
+    }
+
+    #home div {
+        font-size: 1.1rem;
+        color: #ffffff;
+        text-align: justify;
+        background-color: rgba(204, 204, 204, 0.4);
+        padding: 1rem 1.5rem 1.5rem 0rem;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
     /*Rodapé*/
     #rodape {
         background-color: #000E2D;
@@ -107,6 +148,48 @@
         font-weight: bold;
     }
 
+    /* Titulos das Páginas */
+    .titulos {
+        color: #ffffff;
+        font-size: 2rem;
+        font-weight: bold;
+        padding-top: 0rem;
+    }
+
+    /* Home */
+    #home {
+        background-image: url("./Imagens/espaço.jpg");
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 6.5rem 2rem;
+    }
+
+    #home h3 {
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        color: #ffffff;
+        text-align: center;
+        background-color: rgba(204, 204, 204, 0.4);
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 5rem;
+        margin-bottom: 0rem;
+    }
+
+    #home div {
+        font-size: 1.1rem;
+        color: #ffffff;
+        text-align: justify;
+        background-color: rgba(204, 204, 204, 0.4);
+        padding: 1rem 1.5rem 1.5rem 0rem;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+
     /*Rodapé*/
     #rodape {
         background-color: #000E2D;
@@ -165,6 +248,46 @@
         color: #F2AF2D;
         text-decoration: none;
         font-weight: bold;
+    }
+
+    /* Titulos das Páginas */
+    .titulos {
+        color: #ffffff;
+        font-size: 2.5rem;
+        font-weight: bold;
+        padding-top: 4rem;
+    }
+
+    /*Home*/
+    #home {
+        background-image: url("./Imagens/espaço.jpg");
+        height: 92vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 3rem 2rem;
+    }
+
+    #home h3 {
+        font-size: 2rem;
+        color: #ffffff;
+        text-align: left;
+        background-color: rgba(204, 204, 204, 0.4);
+        padding-top: 1rem;
+        padding-left: 1.5rem;
+        margin-right: 50%;
+        margin-top: 10rem;
+        margin-bottom: 0rem;
+    }
+
+    #home div {
+        font-size: 1.3rem;
+        color: #ffffff;
+        text-align: justify;
+        background-color: rgba(204, 204, 204, 0.4);
+        padding: 1rem 1.5rem 1.5rem 1.5rem;
+        margin-right: 50%;
     }
 
     /*Rodapé*/
