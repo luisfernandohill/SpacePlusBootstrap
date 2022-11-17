@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: 'Lato', 'Courier New', Courier, sans-serif;
 }
+body {
+    overflow-x: hidden;
+    background-color: #CCCCCC;
+}
 
 /*Mobile*/
 @media screen and (max-width: 576px) {
@@ -29,7 +33,6 @@
     .menu__list {
         background-color: #000E2D;
         padding: 10px;
-
     }
 
     .menu__list .menu__item {
@@ -104,9 +107,6 @@
         color: aliceblue;
         font-weight: bold;
     }
-
-
-
 }
 
 /*Tablet*/
@@ -211,6 +211,7 @@
     }
 }
 
+
 /*Desktop*/
 @media screen and (min-width: 992px) {
 
@@ -289,6 +290,41 @@
         background-color: rgba(204, 204, 204, 0.4);
         padding: 1rem 1.5rem 1.5rem 1.5rem;
         margin-right: 50%;
+    }
+
+    /* Viagens */
+    .carousel_align{
+        display: flex;
+        justify-content: center;
+    }
+    .imgPlaneta {
+        width:60vh !important; 
+        height: 40vh !important;
+    }
+    
+    .boxPlaneta {
+        width: 90vh;
+        height: 40vh;
+        background-color: #AFCCDA;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .boxPlaneta h4 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        padding: 1.5rem 0rem 1rem 0rem;
+        color: #000E2D
+    }
+    
+    .boxPlaneta p {
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-align: justify;
+        color: #000E2D;
+        padding: 1rem 1rem 2rem 1rem;
+       
     }
 
     /*Rodapé*/
